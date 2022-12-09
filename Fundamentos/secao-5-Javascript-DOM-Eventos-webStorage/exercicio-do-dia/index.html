@@ -46,7 +46,7 @@
         function writeText () {
             const text = document.getElementsByTagName("p")[1];
             
-            text.innerHTML = "Me vejo daqui a dois anos atuando na área da programação";
+            text.innerText = "Me vejo daqui a dois anos atuando na área da programação";
         }
 
          writeText();
@@ -66,6 +66,29 @@
         }
 
         changeColor();
+  
+        function correctText () {
+          const correctH1 = document.getElementsByClassName('title')[0];
+
+          correctH1.innerText = 'Desafio - JavaScript'
+        }
+
+        correctText();
+
+        function changeText () {
+          const upperCase = document.getElementsByTagName('p')[0];
+          upperCase.innerText = upperCase.innerText.toUpperCase()
+        }
+
+        changeText();
+
+        function display () {
+            const show = document.getElementsByTagName('p');
+
+            console.log(show.innerText);
+        }
+
+        display();
 </script>
   </body>
 </html>
@@ -75,9 +98,9 @@ document.getElementsByClassName();
 document.getElementsByTagName();
 Requisitos do Projeto: -->
 
-<!-- Crie e execute uma função que mude o texto na tag <p>-----</p>, para uma descrição de como você se vê daqui a 2 anos;
-Crie e execute uma função que mude a cor do quadrado amarelo para rgb(76,164,109);
-Crie e execute uma função que mude a cor do quadrado vermelho para branco;
-Crie e execute uma função que corrija o texto da tag <h1>;
-Crie e execute uma função que modifique o texto da primeira tag <p> para maiúsculo;
-Crie e execute uma função que exiba o conteúdo de todas as tags <p> no console. --> 
+<!-- 1. Crie e execute uma função que mude o texto na tag <p>-----</p>, para uma descrição de como você se vê daqui a 2 anos;
+2. Crie e execute uma função que mude a cor do quadrado amarelo para rgb(76,164,109);
+3. Crie e execute uma função que mude a cor do quadrado vermelho para branco;
+4. Crie e execute uma função que corrija o texto da tag <h1>;
+5. Crie e execute uma função que modifique o texto da primeira tag <p> para maiúsculo;
+6. Crie e execute uma função que exiba o conteúdo de todas as tags <p> no console. --> 
