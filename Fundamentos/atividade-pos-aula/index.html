@@ -8,10 +8,57 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-    
-</header>
-
+    <h1>Estilização via Script</h1>
+<section>
+    <div id="seletores">
+        <div id="cor-de-fundo">
+            <h4>Cor de Fundo</h4>
+            <select name="background-color">
+                <option value="red">Vermelho</option>
+                <option value="blue">Azul</option>
+                <option value="yellow">Amarelo</option>
+            </select>
+        </div>
+        <div id="cor-texto">
+            <h4>Cor de texto</h4>
+            <select name="color-text">
+                <option value="green">Verde</option>
+                <option value="orange">Laranja</option>
+                <option value="purple">Roxo</option>
+            </select>
+        </div>
+        <div id="tamanho-fonte">
+            <h4>Tamanho da fonte</h4>
+            <input type="number">
+        </div>
+        <div id="espacamento">
+            <h4>Espaçamento do texto</h4>
+            <input type="button" value="0">
+            <input type="button" value="1">
+            <input type="button" value="1.5">
+            <input type="button" value="2.0">
+        </div>
+        <div id="tipo-de-fonte">
+            <h4>Tipo de fonte</h4>
+            <input type="button" value="Arial">
+            <input type="button" value="Courier new">
+            <input type="button" value="Times New Roman">
+        </div>
+    </div>
+</section>
+<section id="text">
+    <h1>Lorem Ipsum</h1>
+    <div id="paragrafo1" class="paragrafo">
+    <h3>What is Lorem Ipsum?</h3>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </p>
+    </div>
+    <div id="paragrafo2" class="paragrafo">
+    <h3>Why do we use it?</h3>
+    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+    </p>
+    </div>
+</section>
 
 <script src="script.js"></script>
 </body>

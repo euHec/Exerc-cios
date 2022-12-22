@@ -1,0 +1,17 @@
+* {
+	text-align: center;
+}
+
+#seletores {
+	display: inline-block;
+	border: 1px rgb(0,0,0) solid;
+	width: 500px;
+}
+
+#cor-de-fundo {
+	margin-top: 10px;
+}
+
+#tipo-de-fonte {
+	margin-bottom: 10px;
+}
