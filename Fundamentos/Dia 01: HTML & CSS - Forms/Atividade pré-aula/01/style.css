@@ -1,0 +1,27 @@
+body {
+    background-image: linear-gradient(to left, white, black);
+    display: flex; 
+    justify-content: center;
+    flex-direction: row;
+}
+
+#form {
+    font-family: Arial;
+    background-color: white;
+    border: solid 2px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+}
+
+input {
+    border-radius: 8px;
+    margin: 2px;
+    
+}
+
+input:hover {
+    background-color: antiquewhite;
+    cursor: pointer;
+}
